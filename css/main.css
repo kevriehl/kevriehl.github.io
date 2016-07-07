@@ -1,0 +1,156 @@
+/* FIXES BELOW */
+
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* padding around right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0;
+}
+
+/* BODY STYLEs */
+
+body {
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: "Roboto", Arial, sans-serif;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+  padding-top: 21px;
+  padding-right: 204px;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 23px;
+  padding-left: 160px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  font-size: 35px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+header {
+  background-color: #03427C;
+  color: white;
+  height: 108px;
+}
+
+nav {
+  padding: 10px;
+  border-bottom: 1px solid #8A969E;
+  background-color: #d9d9d9;
+}
+
+.container {
+  padding: 0 90px 0 90px;
+  font-size: 19px;
+  background-color: #e5ecf1;
+}
+
+#review {
+  height: auto;
+  width: auto;
+  max-width: 950px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#survey {
+  height: auto;
+  width: auto;
+  max-width: 600px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.surveydiv {
+  background-color: white;
+  border-radius: 20px;
+  padding: 1px 0 1px 0;
+  margin: 15px 0 15px 0;
+}
+
+.surveydiv2 {
+  background-color: #F2F2F2;
+  padding: 1px 0 1px 0;
+  border-radius: 20px;
+  margin: 15px 0 15px 0;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 21px;
+  padding-bottom: 15px;
+}
+
+.last {
+  padding-bottom: 15px;
+}
+
+#logo {
+  height: auto;
+  width: auto;
+  max-width: 130px;
+  float: left;
+  clear: both;
+  margin-left: 61px;
+}
+
+.step {
+  font-weight: 700;
+}
+
+.question {
+  text-align: center;
+  font-size: 1.3em;
+  padding: 20px 0px 20px 0px;
+}
+
+
+
+
+
+
+

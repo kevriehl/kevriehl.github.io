@@ -41,16 +41,16 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 44px;
+  font-size: 3.66em;
   font-weight: 700;
-  padding-top: 21px;
-  padding-right: 204px;
+  padding-top: 0.5em;
+  padding-right: 4.6em;
 }
 
 nav ul li {
   display: inline;
-  font-size: 23px;
-  padding-left: 160px;
+  font-size: 1.9em;
+  padding-left: 12%;
 }
 
 a {
@@ -59,27 +59,33 @@ a {
 }
 
 h2 {
-  font-size: 35px;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  font-size: 2em;
+  padding-top: .9em;
+  padding-bottom: .7em;
   font-weight: 700;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.1em;
+  padding-bottom: .9em;
 }
 
 header {
   background-color: #03427C;
   color: white;
-  height: 108px;
+  height: 9.2em;
 }
 
 nav {
-  padding: 10px;
+  padding: .9em;
   border-bottom: 1px solid #8A969E;
   background-color: #d9d9d9;
 }
 
 .container {
-  padding: 0 90px 0 90px;
-  font-size: 19px;
+  padding: 0 7% 0 7%;
+  font-size: 1.6em;
   background-color: #e5ecf1;
 }
 
@@ -94,6 +100,39 @@ nav {
   margin-bottom: 20px;
 }
 
+#samplesscreen {
+  height: auto;
+  width: auto;
+  max-width: 950px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  border-radius: 1em;
+}
+
+.freesamples {
+  height: auto;
+  width: auto;
+  max-width: 750px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 1em;
+}
+
+#goalis {
+  height: auto;
+  width: auto;
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  border-radius: 1em;
+  display: block;
+}
+
 #survey {
   height: auto;
   width: auto;
@@ -101,8 +140,46 @@ nav {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+}
+
+#ariane {
+  height: auto;
+  width: auto;
+  max-width: 450px;
+  display: block;
+  float: right;
+  clear: both;
+  border-radius: 1.5em;
+  margin: 1.9em 0em 1.3em 1em;
+}
+
+#arianesurvey {
+  height: auto;
+  width: auto;
+  max-width: 450px;
+  display: block;
+  float: right;
+  clear: both;
+  border-radius: 1.5em;
+  margin: 1.9em 0em 1.3em 1em;
+}
+
+#ariane2 {
+  display: none;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+.ariane {
+  background: url(../images/ariane.jpg) no-repeat;
+  width: 100px;
+  height: 200px;
+  float: right;
 }
 
 .surveydiv {
@@ -119,14 +196,8 @@ nav {
   margin: 15px 0 15px 0;
 }
 
-h3 {
-  font-weight: 600;
-  font-size: 21px;
-  padding-bottom: 15px;
-}
-
 .last {
-  padding-bottom: 15px;
+  padding-bottom: .9em;
 }
 
 #logo {
@@ -145,7 +216,246 @@ h3 {
 .question {
   text-align: center;
   font-size: 1.3em;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 0px 0px;
+}
+
+.linkButton {
+  background-color: #03427C;
+  border-radius: .5em;
+  color: white;
+  font-size: 2em;
+  padding: 2% 4% 2% 4%;
+}
+
+.linkButton:hover {
+  background-color: #0456a2;
+}
+
+h4.step.question {
+  margin-bottom: 1.8em;
+  margin-top: 1em;
+  font-size: 1.8em;
+}
+
+footer {
+  background-color: #e5ecf1;
+  height: 100px;
+}
+
+.linkagain {
+  text-align: center;
+}
+
+#sweepsscreen {
+  height: auto;
+  width: auto;
+  max-width: 800px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  header {
+    height: 7em;
+    position: relative;
+  }
+
+  #logo {
+    height: auto;
+    width: auto;
+    max-width: 90px;
+    float: left;
+    clear: both;
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+
+  h1 {
+    text-align: left;
+    font-size: 2.2em;
+    font-weight: 700;
+    padding-top: .85em;
+    padding-right: .7em;
+    margin-left: 4.2em;
+  }
+
+  nav {
+    display: none;
+  }
+
+  h2 {
+    padding-top: .3em;
+    padding-bottom: .3em;
+    font-size: 1.6em;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 1.1em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  #ariane {
+    display: none;
+  }
+
+  #ariane2 {
+    display: block;
+    height: auto;
+    width: auto;
+    max-width: 320px;
+    display: block;
+    border-radius: 1em;
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: .8em;
+  }
+
+  #survey {
+    height: auto;
+    width: auto;
+    max-width: 320px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+  }
+
+  .arianepad {
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  .arianepads {
+    margin-top: 1em;
+  }
+
+  h4.step.question {
+    margin-bottom: 1.3em;
+    margin-top: .7em;
+    font-size: 1.2em;
+  }
+
+  #review {
+    height: auto;
+    width: auto;
+    max-width: 320px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .linkButton {
+    background-color: #03427C;
+    border-radius: .5em;
+    color: white;
+    font-size: 2.1em;
+    padding: 2.6% 4% 2.6% 4%;
+}
+  #arianesurvey {
+    display: none;
+  }
+
+  #goalis {
+    height: auto;
+    width: auto;
+    max-width: 330px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    border-radius: 1em;
+    display: block;
+  }
+
+  #samplesscreen {
+    height: auto;
+    width: auto;
+    max-width: 330px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: .2em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+  }
+
+  #sweepsscreen {
+    max-width: 330px;
+    display: block;
+    margin-top: .2em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+  }
+
+  .freesamples {
+    height: auto;
+    width: auto;
+    max-width: 330px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    border-radius: 1em;
+  }
+
+  #hamburger-menu {
+    display: block;
+    float: right;
+    clear: both;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #hamburger-icon {
+    height: auto;
+    width: auto;
+    max-width: 38px;
+    display: block;
+    margin-left: auto;
+    margin-top: 1.7em;
+    margin-right: 1.4em;
+  }
+
+  #hamburger-navitems {
+    text-align: left;
+    color: white;
+    display: none;
+    background-color: #03427C;
+    font-size: 2em;
+    padding: .5em 1em 1em 1.2em;
+    border-radius: .5em;
+    line-height: 1.5em;
+  }
+
+  #hamburger-navitems li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #hamburger-navitems li {
+    color: white;
+    text-decoration: none;
+    padding-top: 1.2em;
+  }
+
+
 }
 
 
